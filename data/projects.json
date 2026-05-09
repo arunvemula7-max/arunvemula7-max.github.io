@@ -1,0 +1,75 @@
+{
+  "heading": "Selected Projects",
+  "projects": [
+    {
+      "name": "devops_masterpiece-ci-jenkins",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "HTML",
+        "SCSS",
+        "Java",
+        "CSS",
+        "JavaScript",
+        "Dockerfile"
+      ],
+      "category": "Data Science",
+      "liveUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins",
+      "githubUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins"
+    },
+    {
+      "name": "microservices-observability",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Java",
+        "HTML",
+        "Shell"
+      ],
+      "category": "Data Science",
+      "liveUrl": "https://github.com/arunvemula7-max/microservices-observability",
+      "githubUrl": "https://github.com/arunvemula7-max/microservices-observability"
+    },
+    {
+      "name": "creditcardfrauddetection-mlops",
+      "description": "Learning project built with modern web technologies",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML",
+        "CSS",
+        "Dockerfile"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops",
+      "githubUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops"
+    },
+    {
+      "name": "computer-vision-projects",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/arunvemula7-max/computer-vision-projects",
+      "githubUrl": "https://github.com/arunvemula7-max/computer-vision-projects"
+    },
+    {
+      "name": "text-analysis-using-nlp-streamlit",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit",
+      "githubUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "category": "Development",
+      "liveUrl": "https://github.com/arunvemula7-max/contribution-history",
+      "githubUrl": "https://github.com/arunvemula7-max/contribution-history"
+    }
+  ]
+}

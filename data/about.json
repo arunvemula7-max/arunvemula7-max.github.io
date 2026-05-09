@@ -1,0 +1,19 @@
+{
+  "heading": "About Me",
+  "bio": "I'm an AI/ML Engineer with 5+ years of experience building practical ML solutions for autonomous vehicles, fraud detection, and industrial IoT. I've deployed computer vision models that run in real time on edge devices with 95% accuracy, cut cloud inference costs by a quarter through quantization, and shaved 40% off training times using distributed computing. I also set up CI/CD pipelines that push model updates weekly without downtime, built anomaly detection that catches 98% of defects across millions of units, and moved legacy workflows to Kubernetes – tripling scalability. I enjoy collaborating with cross-functional teams to turn business problems into Al that actually works, mentoring junior engineers, and creating dashboards that cut debugging time in half.",
+  "philosophy": "Python / SQL / Java / C++ / Repeat",
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "2+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "0+"
+    },
+    {
+      "label": "Technologies",
+      "value": "58+"
+    }
+  ]
+}

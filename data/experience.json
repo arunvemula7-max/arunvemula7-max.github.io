@@ -1,0 +1,112 @@
+{
+  "heading": "Experience",
+  "positions": [
+    {
+      "company": "Lucid Motors",
+      "title": "AI/ML Engineer",
+      "location": "",
+      "startDate": "2024",
+      "endDate": "Present",
+      "description": "Architected real-time object detection pipelines using YOLOv8 and Detectron2, processing 120 FPS from vehicle camera feeds, which reduced perception latency by 30%.\nLowered model inference latency by 35% through TensorRT optimization and INT8 quantization on NVIDIA Orin edge units, enabling sub-50ms response times.\nAutomated data labeling validation system with Python and OpenCV, improving annotation accuracy from 88% to 96% across 500K+ frames, saving 200 manual review hours.\nConfigured A/B testing framework for model versions using MLflow and Kubernetes, enabling rapid experimentation without service interruption and accelerating iteration by 40%.\nImplemented drift detection using Evidently Al and Prometheus, triggering automated retraining when feature distribution shifted beyond 5%, preventing accuracy degradation.\nGenerated synthetic training data with GANs and PyTorch to augment rare driving scenarios, boosting edge-case recall by 42% and reducing real-world testing needs.\nDeployed models to NVIDIA Orin-based edge units using Docker and Kubernetes, achieving 99.9% uptime across 500+ vehicles in production fleet.\nBuilt CI/CD pipeline with GitHub Actions and AWS SageMaker, reducing model deployment time from days to under 2 hours with zero rollback incidents.\nCreated Grafana dashboards to monitor real-time inference metrics, reducing debugging turnaround by 50% and enabling proactive alerting for performance anomalies.",
+      "achievements": [
+        "Architected real-time object detection pipelines using YOLOv8 and Detectron2, processing 120 FPS from vehicle camera feeds, which reduced perception latency by 30%.",
+        "Lowered model inference latency by 35% through TensorRT optimization and INT8 quantization on NVIDIA Orin edge units, enabling sub-50ms response times.",
+        "Automated data labeling validation system with Python and OpenCV, improving annotation accuracy from 88% to 96% across 500K+ frames, saving 200 manual review hours.",
+        "Configured A/B testing framework for model versions using MLflow and Kubernetes, enabling rapid experimentation without service interruption and accelerating iteration by 40%.",
+        "Implemented drift detection using Evidently Al and Prometheus, triggering automated retraining when feature distribution shifted beyond 5%, preventing accuracy degradation.",
+        "Generated synthetic training data with GANs and PyTorch to augment rare driving scenarios, boosting edge-case recall by 42% and reducing real-world testing needs.",
+        "Deployed models to NVIDIA Orin-based edge units using Docker and Kubernetes, achieving 99.9% uptime across 500+ vehicles in production fleet.",
+        "Built CI/CD pipeline with GitHub Actions and AWS SageMaker, reducing model deployment time from days to under 2 hours with zero rollback incidents.",
+        "Created Grafana dashboards to monitor real-time inference metrics, reducing debugging turnaround by 50% and enabling proactive alerting for performance anomalies."
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "TensorRT",
+        "OpenCV",
+        "Docker",
+        "Kubernetes",
+        "AWS SageMaker",
+        "MLflow",
+        "Prometheus",
+        "Grafana",
+        "NVIDIA Orin",
+        "ONNX",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services (TCS)",
+      "title": "AI/ML Software Engineer",
+      "location": "",
+      "startDate": "2021",
+      "endDate": "2023",
+      "description": "Developed fraud detection system using XGBoost and Apache Spark, processing 2M+ daily transactions with 99.2% precision, reducing false positives by 35% for banking client.\nAutomated feature engineering pipeline with Spark and Databricks, reducing manual effort by 70% and accelerating model iteration from weeks to 3 days per release.\nForecasted time-series inventory demand using LightGBM and Prophet, decreasing stockouts by 25% across 500+ retail locations and improving forecast accuracy by 18%.\nOrchestrated end-to-end ML workflows using Apache Airflow and Docker, cutting deployment time from 3 weeks to 3 days with full reproducibility and audit trails.\nContainerized legacy scoring scripts with Docker and deployed on AWS ECS, enabling seamless migration from on-prem servers and reducing infrastructure costs by 20%.\nCreated interactive dashboards in Streamlit connected to PostgreSQL, allowing business stakeholders to query model predictions and explanations, boosting adoption by 40%.\nBuilt RESTful API using FastAPI to serve real-time predictions, handling 10K+ concurrent requests with sub-200ms latency and 99.95% availability.\nImplemented model version control using DVC and Git, enabling rollback to any previous model within minutes and improving collaboration across 5 team members.\nDesigned A/B testing framework with AWS Lambda and CloudWatch, comparing champion vs challenger models on live traffic, increasing conversion rate by 12% for retail client.",
+      "achievements": [
+        "Developed fraud detection system using XGBoost and Apache Spark, processing 2M+ daily transactions with 99.2% precision, reducing false positives by 35% for banking client.",
+        "Automated feature engineering pipeline with Spark and Databricks, reducing manual effort by 70% and accelerating model iteration from weeks to 3 days per release.",
+        "Forecasted time-series inventory demand using LightGBM and Prophet, decreasing stockouts by 25% across 500+ retail locations and improving forecast accuracy by 18%.",
+        "Orchestrated end-to-end ML workflows using Apache Airflow and Docker, cutting deployment time from 3 weeks to 3 days with full reproducibility and audit trails.",
+        "Containerized legacy scoring scripts with Docker and deployed on AWS ECS, enabling seamless migration from on-prem servers and reducing infrastructure costs by 20%.",
+        "Created interactive dashboards in Streamlit connected to PostgreSQL, allowing business stakeholders to query model predictions and explanations, boosting adoption by 40%.",
+        "Built RESTful API using FastAPI to serve real-time predictions, handling 10K+ concurrent requests with sub-200ms latency and 99.95% availability.",
+        "Implemented model version control using DVC and Git, enabling rollback to any previous model within minutes and improving collaboration across 5 team members.",
+        "Designed A/B testing framework with AWS Lambda and CloudWatch, comparing champion vs challenger models on live traffic, increasing conversion rate by 12% for retail client."
+      ],
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "XGBoost",
+        "LightGBM",
+        "Apache Spark",
+        "Databricks",
+        "Airflow",
+        "Docker",
+        "AWS EC2",
+        "AWS S3",
+        "AWS ECS",
+        "AWS Lambda",
+        "PostgreSQL",
+        "Streamlit",
+        "FastAPI",
+        "DVC",
+        "Git"
+      ]
+    },
+    {
+      "company": "Mahindra & Mahindra Ltd.",
+      "title": "Software Engineer",
+      "location": "",
+      "startDate": "2019",
+      "endDate": "2021",
+      "description": "Constructed predictive maintenance system using sensor data from 10K+ production machines with PySpark and XGBoost, detecting failures 48 hours in advance at 94% accuracy.\nReduced unplanned downtime by 30% through real-time anomaly detection deployed via MQTT and Kafka streams, saving $2M annually in lost production costs.\nExtracted vibration and thermal features using signal processing in Python, improving model ROC-AUC from 0.82 to 0.91 and reducing false alarms by 25%.\nTuned Spark Structured Streaming jobs to handle 500K+ events/sec with exactly-once processing guarantees, ensuring zero data loss for critical machine telemetry.\nEstablished automated model retraining trigger in Airflow based on performance decay exceeding 3% over 7-day windows, maintaining model freshness without manual intervention.\nIntegrated SHAP explanations into maintenance alerts via REST API, enabling root cause analysis and reducing troubleshooting time by 40% for plant engineers.\nDesigned Grafana dashboards with InfluxDB to visualize machine health scores and remaining useful life (RUL), adopted by 50+ plant managers for daily decisions.\nBuilt ETL pipelines using PySpark and TimescaleDB to aggregate 5TB of raw sensor data weekly, reducing query latency from 30 seconds to under 2 seconds.\nContainerized streaming applications with Docker and deployed on on-prem Kubernetes cluster, achieving 99.5% uptime and reducing deployment failures by 60%.",
+      "achievements": [
+        "Constructed predictive maintenance system using sensor data from 10K+ production machines with PySpark and XGBoost, detecting failures 48 hours in advance at 94% accuracy.",
+        "Reduced unplanned downtime by 30% through real-time anomaly detection deployed via MQTT and Kafka streams, saving $2M annually in lost production costs.",
+        "Extracted vibration and thermal features using signal processing in Python, improving model ROC-AUC from 0.82 to 0.91 and reducing false alarms by 25%.",
+        "Tuned Spark Structured Streaming jobs to handle 500K+ events/sec with exactly-once processing guarantees, ensuring zero data loss for critical machine telemetry.",
+        "Established automated model retraining trigger in Airflow based on performance decay exceeding 3% over 7-day windows, maintaining model freshness without manual intervention.",
+        "Integrated SHAP explanations into maintenance alerts via REST API, enabling root cause analysis and reducing troubleshooting time by 40% for plant engineers.",
+        "Designed Grafana dashboards with InfluxDB to visualize machine health scores and remaining useful life (RUL), adopted by 50+ plant managers for daily decisions.",
+        "Built ETL pipelines using PySpark and TimescaleDB to aggregate 5TB of raw sensor data weekly, reducing query latency from 30 seconds to under 2 seconds.",
+        "Containerized streaming applications with Docker and deployed on on-prem Kubernetes cluster, achieving 99.5% uptime and reducing deployment failures by 60%."
+      ],
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Kafka",
+        "MQTT",
+        "InfluxDB",
+        "TimescaleDB",
+        "Docker",
+        "Kubernetes",
+        "Airflow",
+        "Grafana",
+        "Scikit-learn",
+        "XGBoost",
+        "SHAP",
+        "AWS IoT Core"
+      ]
+    }
+  ]
+}

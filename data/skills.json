@@ -1,0 +1,83 @@
+{
+  "heading": "Skills & Expertise",
+  "categories": [
+    {
+      "name": "Languages",
+      "items": [
+        "Python",
+        "SQL",
+        "Java",
+        "C++",
+        "Bash",
+        "R",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "items": [
+        "FastAPI",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "MLflow",
+        "Kubeflow",
+        "TFX",
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI",
+        "AWS SageMaker",
+        "AWS ECR",
+        "AWS Lambda",
+        "AWS EC2",
+        "AWS S3",
+        "GCP Vertex AI",
+        "Azure ML",
+        "Apache Spark",
+        "Databricks",
+        "Hadoop",
+        "Hive",
+        "Kafka",
+        "MQTT",
+        "Apache Airflow",
+        "Prefect",
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch",
+        "Redis",
+        "InfluxDB",
+        "TimescaleDB",
+        "ONNX",
+        "TensorRT",
+        "OpenVINO",
+        "Git",
+        "DVC",
+        "PyTest",
+        "JUnit"
+      ]
+    },
+    {
+      "name": "Technical",
+      "items": [
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "XGBoost",
+        "LightGBM",
+        "Hugging Face Transformers",
+        "spaCy",
+        "NLTK",
+        "BERT",
+        "OpenCV",
+        "YOLO",
+        "Detectron2"
+      ]
+    }
+  ]
+}

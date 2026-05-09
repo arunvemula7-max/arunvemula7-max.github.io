@@ -1,0 +1,27 @@
+{
+  "heading": "Education",
+  "entries": [
+    {
+      "institution": "Indiana Wesleyan University, USA",
+      "degree": "Master of Science",
+      "field": "Information Technology Management",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "institution": "Osmania University, India",
+      "degree": "Bachelor of Engineering",
+      "field": "Computer Science",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning",
+    "TensorFlow Developer Certificate"
+  ]
+}
