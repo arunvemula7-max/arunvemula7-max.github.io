@@ -138,7 +138,7 @@
     if (taglineEl) {
       var tagline = hero.tagline || '';
       taglineEl.textContent =
-        tagline.length > 80 ? tagline.substring(0, 80) + '...' : tagline;
+        tagline.length > 55 ? tagline.substring(0, 55) + '...' : tagline;
     }
 
     if (socialLinksEl && hero.socialLinks) {

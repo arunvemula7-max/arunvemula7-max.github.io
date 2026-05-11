@@ -67,15 +67,6 @@
       "category": "AI / ML",
       "liveUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit",
       "githubUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit"
-    },
-    {
-      "name": "contribution-history",
-      "image": "assets/images/projects/contribution-history.svg",
-      "description": "Generated GitHub contribution history",
-      "technologies": [],
-      "category": "Development",
-      "liveUrl": "https://github.com/arunvemula7-max/contribution-history",
-      "githubUrl": "https://github.com/arunvemula7-max/contribution-history"
     }
   ]
 }
