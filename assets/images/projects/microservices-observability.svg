@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Microservices Observability">
+  <title>Microservices Observability</title>
+  <rect width="640" height="400" fill="#141414"/>
+  <!-- Grid lines -->
+  <g stroke="#5d576b" stroke-width="0.5" opacity="0.5">
+    <path d="M0 100 H640 M0 200 H640 M0 300 H640"/>
+    <path d="M160 0 V400 M320 0 V400 M480 0 V400"/>
+  </g>
+  <!-- Service nodes connected -->
+  <g>
+    <line x1="120" y1="180" x2="240" y2="120" stroke="#9bc1bc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="120" y1="180" x2="240" y2="240" stroke="#9bc1bc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="240" y1="120" x2="380" y2="180" stroke="#9bc1bc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="240" y1="240" x2="380" y2="180" stroke="#9bc1bc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="380" y1="180" x2="510" y2="120" stroke="#ed6a5a" stroke-width="1.5" opacity="0.9"/>
+    <line x1="380" y1="180" x2="510" y2="240" stroke="#9bc1bc" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  <g font-family="Space Mono, monospace" font-size="10" fill="#edf1e8" text-anchor="middle">
+    <g>
+      <circle cx="120" cy="180" r="26" fill="#5d576b" stroke="#9bc1bc" stroke-width="2"/>
+      <text x="120" y="184">API</text>
+    </g>
+    <g>
+      <circle cx="240" cy="120" r="26" fill="#5d576b" stroke="#9bc1bc" stroke-width="2"/>
+      <text x="240" y="124">AUTH</text>
+    </g>
+    <g>
+      <circle cx="240" cy="240" r="26" fill="#5d576b" stroke="#9bc1bc" stroke-width="2"/>
+      <text x="240" y="244">USER</text>
+    </g>
+    <g>
+      <circle cx="380" cy="180" r="26" fill="#5d576b" stroke="#9bc1bc" stroke-width="2"/>
+      <text x="380" y="184">ORDER</text>
+    </g>
+    <g>
+      <circle cx="510" cy="120" r="26" fill="#ed6a5a" stroke="#ed6a5a" stroke-width="2"/>
+      <text x="510" y="124" fill="#141414" font-weight="700">PAY</text>
+    </g>
+    <g>
+      <circle cx="510" cy="240" r="26" fill="#5d576b" stroke="#9bc1bc" stroke-width="2"/>
+      <text x="510" y="244">DB</text>
+    </g>
+  </g>
+  <!-- Header -->
+  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#edf1e8">observability</text>
+  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#9bc1bc" letter-spacing="3">GRAFANA · PROMETHEUS · TRACING</text>
+  <!-- Mini sparkline -->
+  <g transform="translate(40 340)" fill="none" stroke="#f4f1bb" stroke-width="2" opacity="0.9">
+    <polyline points="0,20 20,15 40,18 60,8 80,12 100,3 120,10 140,6 160,14 180,4"/>
+  </g>
+  <text x="240" y="358" font-family="Space Mono, monospace" font-size="10" fill="#f4f1bb">P99 LATENCY · LIVE</text>
+</svg>

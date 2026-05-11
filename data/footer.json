@@ -7,6 +7,11 @@
       "label": "Email",
       "url": "mailto:arunkumarreddy952@gmail.com",
       "icon": "email"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/arunvemula7-max",
+      "icon": "github"
     }
   ]
 }

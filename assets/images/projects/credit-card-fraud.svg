@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Credit Card Fraud Detection MLOps">
+  <title>Credit Card Fraud Detection</title>
+  <rect width="640" height="400" fill="#5d576b"/>
+  <!-- Faint grid -->
+  <g stroke="#edf1e8" stroke-width="0.4" opacity="0.12">
+    <path d="M0 80 H640 M0 160 H640 M0 240 H640 M0 320 H640"/>
+  </g>
+  <!-- Credit card -->
+  <g transform="translate(80 150) rotate(-8)">
+    <rect width="280" height="170" rx="20" fill="#141414" stroke="#9bc1bc" stroke-width="2"/>
+    <rect x="20" y="35" width="44" height="34" rx="5" fill="#f4f1bb"/>
+    <g fill="#141414" opacity="0.4">
+      <rect x="24" y="42" width="36" height="3"/>
+      <rect x="24" y="50" width="36" height="3"/>
+      <rect x="24" y="58" width="36" height="3"/>
+    </g>
+    <g font-family="Space Mono, monospace" font-size="16" fill="#edf1e8" letter-spacing="3">
+      <text x="20" y="110">5847</text>
+      <text x="80" y="110">●●●●</text>
+      <text x="140" y="110">●●●●</text>
+      <text x="200" y="110">2398</text>
+    </g>
+    <text x="20" y="148" font-family="Space Mono, monospace" font-size="10" fill="#9bc1bc">A. VEMULA</text>
+    <text x="180" y="148" font-family="Space Mono, monospace" font-size="10" fill="#9bc1bc">11/29</text>
+  </g>
+  <!-- Alert shield -->
+  <g transform="translate(440 130)">
+    <path d="M70 0 L130 22 L130 90 Q130 130 70 158 Q10 130 10 90 L10 22 Z" fill="#ed6a5a" stroke="#141414" stroke-width="2"/>
+    <text x="70" y="100" text-anchor="middle" font-family="Space Mono, monospace" font-size="48" font-weight="700" fill="#141414">!</text>
+  </g>
+  <!-- Header -->
+  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#edf1e8">fraud detection</text>
+  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#f4f1bb" letter-spacing="3">XGBOOST · SPARK · MLFLOW</text>
+  <!-- Stats -->
+  <g font-family="Space Mono, monospace" fill="#edf1e8" opacity="0.85">
+    <text x="40" y="370" font-size="10" fill="#9bc1bc">PRECISION</text>
+    <text x="120" y="370" font-size="13" font-weight="700">99.2%</text>
+    <text x="220" y="370" font-size="10" fill="#9bc1bc">FALSE POS↓</text>
+    <text x="310" y="370" font-size="13" font-weight="700">35%</text>
+    <text x="380" y="370" font-size="10" fill="#9bc1bc">TXN/DAY</text>
+    <text x="450" y="370" font-size="13" font-weight="700">2M+</text>
+  </g>
+</svg>

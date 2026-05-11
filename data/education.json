@@ -3,6 +3,7 @@
   "entries": [
     {
       "institution": "Indiana Wesleyan University, USA",
+      "logo": "assets/images/education/indiana-wesleyan.svg",
       "degree": "Master of Science",
       "field": "Information Technology Management",
       "startDate": "",
@@ -12,6 +13,7 @@
     },
     {
       "institution": "Osmania University, India",
+      "logo": "assets/images/education/osmania.svg",
       "degree": "Bachelor of Engineering",
       "field": "Computer Science",
       "startDate": "",
@@ -21,7 +23,7 @@
     }
   ],
   "certifications": [
-    "AWS Certified Machine Learning",
-    "TensorFlow Developer Certificate"
+    { "name": "AWS Certified Machine Learning", "status": "in progress", "logo": "assets/images/certifications/aws.svg" },
+    { "name": "TensorFlow Developer Certificate", "logo": "assets/images/certifications/tensorflow.svg" }
   ]
 }

@@ -3,6 +3,7 @@
   "projects": [
     {
       "name": "devops_masterpiece-ci-jenkins",
+      "image": "assets/images/projects/devops-ci-jenkins.svg",
       "description": "Comprehensive project exploring software design patterns",
       "technologies": [
         "HTML",
@@ -12,24 +13,26 @@
         "JavaScript",
         "Dockerfile"
       ],
-      "category": "Data Science",
+      "category": "DevOps",
       "liveUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins",
       "githubUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins"
     },
     {
       "name": "microservices-observability",
+      "image": "assets/images/projects/microservices-observability.svg",
       "description": "Portfolio project showcasing development capabilities",
       "technologies": [
         "Java",
         "HTML",
         "Shell"
       ],
-      "category": "Data Science",
+      "category": "Backend",
       "liveUrl": "https://github.com/arunvemula7-max/microservices-observability",
       "githubUrl": "https://github.com/arunvemula7-max/microservices-observability"
     },
     {
       "name": "creditcardfrauddetection-mlops",
+      "image": "assets/images/projects/credit-card-fraud.svg",
       "description": "Learning project built with modern web technologies",
       "technologies": [
         "Jupyter Notebook",
@@ -38,33 +41,36 @@
         "CSS",
         "Dockerfile"
       ],
-      "category": "Backend Development",
+      "category": "AI / ML",
       "liveUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops",
       "githubUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops"
     },
     {
       "name": "computer-vision-projects",
+      "image": "assets/images/projects/computer-vision.svg",
       "description": "Personal project for exploring modern development practices",
       "technologies": [
         "Jupyter Notebook",
         "Python"
       ],
-      "category": "Backend Development",
+      "category": "AI / ML",
       "liveUrl": "https://github.com/arunvemula7-max/computer-vision-projects",
       "githubUrl": "https://github.com/arunvemula7-max/computer-vision-projects"
     },
     {
       "name": "text-analysis-using-nlp-streamlit",
+      "image": "assets/images/projects/nlp-streamlit.svg",
       "description": "Personal project for exploring modern development practices",
       "technologies": [
         "Python"
       ],
-      "category": "Backend Development",
+      "category": "AI / ML",
       "liveUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit",
       "githubUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit"
     },
     {
       "name": "contribution-history",
+      "image": "assets/images/projects/contribution-history.svg",
       "description": "Generated GitHub contribution history",
       "technologies": [],
       "category": "Development",

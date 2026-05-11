@@ -207,11 +207,23 @@
     if (listEl && exp.positions) {
       listEl.innerHTML = exp.positions
         .map(function (pos) {
+          var logoHtml = pos.logo
+            ? '<div class="experience-logo"><img src="' + pos.logo + '" alt="' + (pos.company || '') + ' logo" loading="lazy" /></div>'
+            : '';
+          var domainHtml = pos.domain
+            ? '<p class="experience-domain">' + pos.domain + '</p>'
+            : '';
           return '<div class="experience-item">' +
             '<div class="experience-date">' + (pos.startDate || '') + (pos.endDate ? ' - ' + pos.endDate : '') + '</div>' +
             '<div class="experience-info">' +
+            '<div class="experience-company-row">' +
+            logoHtml +
+            '<div class="experience-company-text">' +
             '<h3>' + (pos.title || '') + '</h3>' +
             '<p class="experience-company">' + (pos.company || '') + '</p>' +
+            domainHtml +
+            '</div>' +
+            '</div>' +
             '<p class="experience-description">' + (pos.description || '') + '</p>' +
             '</div>' +
             '<div class="experience-location">' + (pos.location || '') + '</div>' +
@@ -290,9 +302,12 @@
           if (proj.githubUrl)
             linksHtml.push('<a href="' + proj.githubUrl + '" target="_blank" rel="noopener">Source &rarr;</a>');
 
+          var visualInner = proj.image
+            ? '<img class="project-image" src="' + proj.image + '" alt="' + (proj.name || '') + ' thumbnail" loading="lazy" />'
+            : '<div class="project-visual-inner">' + (proj.name || '') + '</div>';
           return '<div class="project-item">' +
             '<div class="project-visual">' +
-            '<div class="project-visual-inner">' + (proj.name || '') + '</div>' +
+            visualInner +
             '</div>' +
             '<div class="project-info">' +
             '<div class="project-category">' + category + '</div>' +
@@ -328,8 +343,13 @@
           if (entry.field) meta.push(entry.field);
           if (entry.gpa) meta.push('GPA: ' + entry.gpa);
 
+          var logoHtml = entry.logo
+            ? '<div class="education-logo"><img src="' + entry.logo + '" alt="' + (entry.institution || '') + ' logo" loading="lazy" /></div>'
+            : '';
+
           return '<div class="education-item">' +
             '<div class="education-year">' + (entry.startDate || '') + (entry.endDate ? ' - ' + entry.endDate : '') + '</div>' +
+            logoHtml +
             '<div class="education-info">' +
             '<h3>' + (entry.degree || '') + '</h3>' +
             '<p class="education-institution">' + (entry.institution || '') + '</p>' +
@@ -344,7 +364,18 @@
       if (edu.certifications && edu.certifications.length) {
         html += '<div class="certifications-list">' +
           '<h4>Certifications</h4>' +
-          edu.certifications.map(function (c) { return '<p>' + c + '</p>'; }).join('') +
+          edu.certifications.map(function (c) {
+            if (typeof c === 'string') {
+              return '<p>' + c + '</p>';
+            }
+            var certLogo = c.logo
+              ? '<img class="certification-logo" src="' + c.logo + '" alt="' + (c.name || '') + ' logo" loading="lazy" />'
+              : '';
+            var statusBadge = c.status
+              ? '<span class="certification-status">' + c.status + '</span>'
+              : '';
+            return '<div class="certification-item">' + certLogo + '<span class="certification-name">' + (c.name || '') + '</span>' + statusBadge + '</div>';
+          }).join('') +
           '</div>';
       }
 
@@ -398,6 +429,24 @@
           '<div class="contact-detail-value">' + contact.availability + '</div>' +
           '</div>'
         );
+      }
+      if (contact.socialLinks) {
+        if (contact.socialLinks.github) {
+          items.push(
+            '<div class="contact-detail-item">' +
+            '<div class="contact-detail-label">GitHub</div>' +
+            '<div class="contact-detail-value"><a href="' + contact.socialLinks.github + '" target="_blank" rel="noopener">@arunvemula7-max</a></div>' +
+            '</div>'
+          );
+        }
+        if (contact.socialLinks.linkedin) {
+          items.push(
+            '<div class="contact-detail-item">' +
+            '<div class="contact-detail-label">LinkedIn</div>' +
+            '<div class="contact-detail-value"><a href="' + contact.socialLinks.linkedin + '" target="_blank" rel="noopener">View Profile</a></div>' +
+            '</div>'
+          );
+        }
       }
       detailsEl.innerHTML = items.join('');
     }

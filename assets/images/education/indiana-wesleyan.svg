@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-label="Indiana Wesleyan University">
+  <title>Indiana Wesleyan University</title>
+  <g>
+    <circle cx="40" cy="40" r="32" fill="#5C2D91"/>
+    <text x="40" y="48" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="22" fill="#FFFFFF" letter-spacing="1">IWU</text>
+    <text x="84" y="36" font-family="Georgia, serif" font-weight="700" font-size="14" fill="#5C2D91">INDIANA WESLEYAN</text>
+    <text x="84" y="54" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#444">University</text>
+  </g>
+</svg>
