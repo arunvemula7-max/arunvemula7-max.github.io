@@ -6,7 +6,7 @@
       "logo": "assets/images/companies/lucid-motors.svg",
       "title": "AI/ML Engineer",
       "domain": "Autonomous Driving & Computer Vision",
-      "location": "Newark, CA",
+      "location": "Hayward, CA",
       "startDate": "Aug 2024",
       "endDate": "Present",
       "description": "Architected real-time object detection pipelines using YOLOv8 and Detectron2, processing 120 FPS from vehicle camera feeds, which reduced perception latency by 30%.\nLowered model inference latency by 35% through TensorRT optimization and INT8 quantization on NVIDIA Orin edge units, enabling sub-50ms response times.\nAutomated data labeling validation system with Python and OpenCV, improving annotation accuracy from 88% to 96% across 500K+ frames, saving 200 manual review hours.\nConfigured A/B testing framework for model versions using MLflow and Kubernetes, enabling rapid experimentation without service interruption and accelerating iteration by 40%.\nImplemented drift detection using Evidently Al and Prometheus, triggering automated retraining when feature distribution shifted beyond 5%, preventing accuracy degradation.\nGenerated synthetic training data with GANs and PyTorch to augment rare driving scenarios, boosting edge-case recall by 42% and reducing real-world testing needs.\nDeployed models to NVIDIA Orin-based edge units using Docker and Kubernetes, achieving 99.9% uptime across 500+ vehicles in production fleet.\nBuilt CI/CD pipeline with GitHub Actions and AWS SageMaker, reducing model deployment time from days to under 2 hours with zero rollback incidents.\nCreated Grafana dashboards to monitor real-time inference metrics, reducing debugging turnaround by 50% and enabling proactive alerting for performance anomalies.",
