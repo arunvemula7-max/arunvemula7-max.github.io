@@ -97,34 +97,39 @@
     }
   }
 
-  function renderHero(hero) {
+  function renderHero(hero, contact) {
     if (!hero) return;
 
     var greetingEl = document.getElementById('heroGreeting');
     var name1El = document.getElementById('heroName1');
     var name2El = document.getElementById('heroName2');
+    var name3El = document.getElementById('heroName3');
     var titleEl = document.getElementById('heroTitle');
     var taglineEl = document.getElementById('heroTagline');
     var socialLinksEl = document.getElementById('heroSocialLinks');
+    var contactGridEl = document.getElementById('heroContactGrid');
 
     if (greetingEl) greetingEl.textContent = hero.greeting || '';
 
-    // Split name into two lines, with each character wrapped for animation
-    if (hero.name) {
-      var parts = hero.name.split(' ');
-      var wrapChars = function (text) {
-        return text
-          .split('')
-          .map(function (ch) {
-            return ch === ' '
-              ? ' '
-              : '<span class="char" style="display:inline-block;transform:translateY(100%);opacity:0">' +
-                  ch +
-                  '</span>';
-          })
-          .join('');
-      };
+    var wrapChars = function (text) {
+      return (text || '')
+        .split('')
+        .map(function (ch) {
+          return ch === ' '
+            ? ' '
+            : '<span class="char" style="display:inline-block;transform:translateY(100%);opacity:0">' +
+                ch +
+                '</span>';
+        })
+        .join('');
+    };
 
+    if (hero.nameLine1 || hero.nameLine2 || hero.nameLine3) {
+      if (name1El) name1El.innerHTML = wrapChars(hero.nameLine1 || '');
+      if (name2El) name2El.innerHTML = wrapChars(hero.nameLine2 || '');
+      if (name3El) name3El.innerHTML = wrapChars(hero.nameLine3 || '');
+    } else if (hero.name) {
+      var parts = hero.name.split(' ');
       if (parts.length >= 2) {
         if (name1El) name1El.innerHTML = wrapChars(parts[0]);
         if (name2El) name2El.innerHTML = wrapChars(parts.slice(1).join(' '));
@@ -132,9 +137,53 @@
         if (name1El) name1El.innerHTML = wrapChars(hero.name);
         if (name2El) name2El.innerHTML = '';
       }
+      if (name3El) name3El.innerHTML = '';
     }
 
     if (titleEl) titleEl.textContent = hero.title || '';
+
+    if (contactGridEl && contact) {
+      var contactItems = [];
+      if (contact.email) {
+        contactItems.push({
+          label: 'Email',
+          value: contact.email,
+          href: 'mailto:' + contact.email,
+        });
+      }
+      if (contact.phone) {
+        contactItems.push({
+          label: 'Phone',
+          value: contact.phone,
+          href: 'tel:' + contact.phone.replace(/[^\d+]/g, ''),
+        });
+      }
+      if (contact.location) {
+        contactItems.push({
+          label: 'Location',
+          value: contact.location,
+        });
+      }
+      if (contact.availability) {
+        contactItems.push({
+          label: 'Status',
+          value: contact.availability,
+        });
+      }
+
+      contactGridEl.innerHTML = contactItems
+        .map(function (item) {
+          var value = item.href
+            ? '<a href="' + item.href + '">' + item.value + '</a>'
+            : item.value;
+          return '<div class="hero-contact-item">' +
+            '<div class="hero-contact-label mn">' + item.label + '</div>' +
+            '<div class="hero-contact-value">' + value + '</div>' +
+            '</div>';
+        })
+        .join('');
+    }
+
     if (taglineEl) {
       var tagline = hero.tagline || '';
       taglineEl.textContent =
@@ -683,6 +732,17 @@
         },
         '-=0.4'
       )
+      .to(
+        '.hero-name-3 .char',
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          stagger: 0.04,
+          ease: 'power4.out',
+        },
+        '-=0.4'
+      )
       .from(
         '.hero-title',
         {
@@ -702,6 +762,17 @@
           ease: 'power3.out',
         },
         '-=0.4'
+      )
+      .from(
+        '.hero-contact-item',
+        {
+          y: 18,
+          opacity: 0,
+          duration: 0.7,
+          stagger: 0.08,
+          ease: 'power3.out',
+        },
+        '-=0.7'
       );
 
     // --- About section ---
@@ -1057,6 +1128,17 @@
       opacity: 0.3,
     });
 
+    gsap.to('.hero-name-3', {
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: 1,
+      },
+      y: -40,
+      opacity: 0.3,
+    });
+
     // --- Floating decorative tags in About ---
     addFloatingTags();
   }
@@ -1138,7 +1220,7 @@
       // Render all sections
       renderSiteConfig(data.siteConfig);
       renderNavigation(data.navigation);
-      renderHero(data.hero);
+      renderHero(data.hero, data.contact);
       renderAbout(data.about);
       renderExperience(data.experience);
       renderSkills(data.skills);
