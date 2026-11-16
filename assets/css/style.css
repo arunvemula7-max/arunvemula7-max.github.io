@@ -798,6 +798,8 @@ nav {
 .projects {
   position: relative;
   padding: 8rem 2rem;
+  /* Contain the horizontal entrance animations without creating a scroll container. */
+  overflow-x: clip;
 }
 
 .projects-heading {
