@@ -6,77 +6,124 @@
       "items": [
         "Python",
         "SQL",
-        "Java",
         "C++",
-        "Bash",
-        "R",
-        "JavaScript",
-        "TypeScript"
+        "Java",
+        "Bash"
       ]
     },
     {
-      "name": "Frameworks",
+      "name": "ML & Deep Learning",
       "items": [
-        "FastAPI",
-        "Flask"
-      ]
-    },
-    {
-      "name": "Tools & Platforms",
-      "items": [
-        "Docker",
-        "Kubernetes",
-        "MLflow",
-        "Kubeflow",
-        "TFX",
-        "Jenkins",
-        "GitHub Actions",
-        "GitLab CI",
-        "AWS SageMaker",
-        "AWS ECR",
-        "AWS Lambda",
-        "AWS EC2",
-        "AWS S3",
-        "GCP Vertex AI",
-        "Azure ML",
-        "Apache Spark",
-        "Databricks",
-        "Hadoop",
-        "Hive",
-        "Kafka",
-        "MQTT",
-        "Apache Airflow",
-        "Prefect",
-        "PostgreSQL",
-        "MongoDB",
-        "Elasticsearch",
-        "Redis",
-        "InfluxDB",
-        "TimescaleDB",
-        "ONNX",
-        "TensorRT",
-        "OpenVINO",
-        "Git",
-        "DVC",
-        "PyTest",
-        "JUnit"
-      ]
-    },
-    {
-      "name": "Technical",
-      "items": [
-        "TensorFlow",
         "PyTorch",
+        "TensorFlow",
+        "Keras",
         "Scikit-learn",
         "XGBoost",
         "LightGBM",
-        "Hugging Face Transformers",
-        "spaCy",
-        "NLTK",
-        "BERT",
+        "CNNs",
+        "RNNs",
+        "LSTM",
+        "Transformers",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "items": [
         "OpenCV",
         "YOLO",
-        "Detectron2"
+        "Detectron2",
+        "ResNet",
+        "Image Segmentation",
+        "Object Detection",
+        "Sensor Fusion"
+      ]
+    },
+    {
+      "name": "Generative AI & NLP",
+      "items": [
+        "LangChain",
+        "RAG Pipelines",
+        "FAISS",
+        "Pinecone",
+        "Prompt Engineering",
+        "Hugging Face Transformers",
+        "OpenAI APIs",
+        "spaCy",
+        "NLTK"
+      ]
+    },
+    {
+      "name": "MLOps & DevOps",
+      "items": [
+        "MLflow",
+        "Airflow",
+        "Kubeflow",
+        "Docker",
+        "Kubernetes",
+        "ONNX",
+        "TensorRT",
+        "CI/CD Pipelines",
+        "Model Registry",
+        "GitHub Actions",
+        "Jenkins",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "ELK Stack"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "items": [
+        "AWS SageMaker",
+        "AWS EC2",
+        "AWS S3",
+        "AWS Lambda",
+        "AWS EKS",
+        "AWS RDS",
+        "Azure ML",
+        "Azure AKS",
+        "GCP Vertex AI",
+        "BigQuery"
+      ]
+    },
+    {
+      "name": "Data Engineering & BI",
+      "items": [
+        "Apache Spark",
+        "Kafka",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Snowflake",
+        "Databricks",
+        "Tableau",
+        "Power BI",
+        "Matplotlib",
+        "Plotly",
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "Backend, Testing & Practices",
+      "items": [
+        "FastAPI",
+        "Flask",
+        "Django",
+        "REST APIs",
+        "GraphQL",
+        "gRPC",
+        "Microservices",
+        "Git",
+        "PyTest",
+        "unittest",
+        "Selenium",
+        "Postman",
+        "TDD",
+        "Agile/Scrum",
+        "Responsible AI"
       ]
     }
   ]

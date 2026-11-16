@@ -1,17 +1,22 @@
 {
   "copyright": "ARUN KUMAR REDDY VEMULA",
   "year": "2026",
-  "tagline": "Crafting digital experiences",
+  "tagline": "Machine Learning Engineer",
   "links": [
     {
       "label": "Email",
-      "url": "mailto:arunkumarreddy952@gmail.com",
+      "url": "mailto:arunreddyv7@gmail.com",
       "icon": "email"
     },
     {
       "label": "GitHub",
       "url": "https://github.com/arunvemula7-max",
       "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/arun-kumar-reddy-57101a213",
+      "icon": "linkedin"
     }
   ]
 }

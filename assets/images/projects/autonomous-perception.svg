@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Computer Vision Projects">
-  <title>Computer Vision Projects</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Autonomous Driving Perception Models">
+  <title>Autonomous Driving Perception Models</title>
   <rect width="640" height="400" fill="#141414"/>
   <!-- Scanlines -->
   <g stroke="#9bc1bc" stroke-width="0.6" opacity="0.18">
@@ -38,6 +38,6 @@
     <line x1="0" y1="12" x2="0" y2="40"/>
   </g>
   <!-- Header -->
-  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#edf1e8">computer vision</text>
-  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#ed6a5a" letter-spacing="3">YOLO · OPENCV · PYTORCH</text>
+  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#edf1e8">autonomous perception</text>
+  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#ed6a5a" letter-spacing="3">CNN · YOLO · FASTAPI · KUBERNETES</text>
 </svg>

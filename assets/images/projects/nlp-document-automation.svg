@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="NLP Document Automation">
+  <title>NLP Document Automation</title>
+  <rect width="640" height="400" fill="#9bc1bc"/>
+  <!-- Header -->
+  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#141414">document automation</text>
+  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#5d576b" letter-spacing="3">SPACY · HUGGING FACE · REST API</text>
+  <!-- Source document -->
+  <g>
+    <path d="M40 104 H214 L240 130 V350 H40 Z" fill="#edf1e8" stroke="#141414" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M214 104 V130 H240" fill="#d7dbd2" stroke="#141414" stroke-width="2" stroke-linejoin="round"/>
+    <g fill="#141414" opacity="0.18">
+      <rect x="60" y="150" width="120" height="7" rx="3"/>
+      <rect x="60" y="196" width="160" height="7" rx="3"/>
+      <rect x="60" y="214" width="140" height="7" rx="3"/>
+      <rect x="60" y="260" width="160" height="7" rx="3"/>
+      <rect x="60" y="278" width="110" height="7" rx="3"/>
+      <rect x="60" y="314" width="150" height="7" rx="3"/>
+    </g>
+    <rect x="60" y="128" width="96" height="14" rx="3" fill="#ed6a5a"/>
+    <rect x="60" y="168" width="72" height="14" rx="3" fill="#f4f1bb" stroke="#141414" stroke-width="1"/>
+    <rect x="140" y="236" width="80" height="14" rx="3" fill="#5d576b"/>
+  </g>
+  <!-- Arrow -->
+  <g stroke="#141414" stroke-width="2" fill="none">
+    <path d="M254 226 H290"/>
+    <path d="M282 218 L292 226 L282 234"/>
+  </g>
+  <!-- Classification card -->
+  <g font-family="Space Mono, monospace">
+    <rect x="304" y="104" width="296" height="74" rx="10" fill="#5d576b"/>
+    <text x="322" y="126" font-size="10" fill="#9bc1bc" letter-spacing="2">CLASS</text>
+    <text x="322" y="160" font-size="24" font-weight="700" fill="#edf1e8">INVOICE</text>
+    <text x="582" y="160" text-anchor="end" font-size="11" fill="#f4f1bb">conf 0.96</text>
+  </g>
+  <!-- Extracted fields -->
+  <g font-family="Space Mono, monospace" font-size="11" fill="#141414">
+    <rect x="304" y="192" width="296" height="158" rx="10" fill="#edf1e8" stroke="#141414" stroke-width="2"/>
+    <text x="322" y="214" font-size="10" fill="#5d576b" letter-spacing="2">EXTRACTED FIELDS</text>
+    <circle cx="328" cy="240" r="5" fill="#ed6a5a"/>
+    <text x="342" y="244">vendor</text><text x="430" y="244">Acme Supply Co.</text>
+    <circle cx="328" cy="268" r="5" fill="#f4f1bb" stroke="#141414" stroke-width="1"/>
+    <text x="342" y="272">date</text><text x="430" y="272">2022-03-14</text>
+    <circle cx="328" cy="296" r="5" fill="#5d576b"/>
+    <text x="342" y="300">amount</text><text x="430" y="300">$4,820.00</text>
+    <circle cx="328" cy="324" r="5" fill="#9bc1bc" stroke="#141414" stroke-width="1"/>
+    <text x="342" y="328">route</text><text x="430" y="328">accounts-payable</text>
+  </g>
+  <!-- Footer -->
+  <text x="40" y="380" font-family="Space Mono, monospace" font-size="10" fill="#141414" letter-spacing="3">CLASSIFY · EXTRACT · ROUTE</text>
+</svg>

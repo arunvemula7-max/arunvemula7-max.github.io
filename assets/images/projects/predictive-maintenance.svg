@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Predictive Maintenance for Manufacturing">
+  <title>Predictive Maintenance for Manufacturing</title>
+  <rect width="640" height="400" fill="#f4f1bb"/>
+  <!-- Header -->
+  <text x="40" y="60" font-family="Playfair Display, serif" font-style="italic" font-size="26" fill="#141414">predictive maintenance</text>
+  <text x="40" y="84" font-family="Space Mono, monospace" font-size="10" fill="#ed6a5a" letter-spacing="3">LSTM · TIME-SERIES · MLFLOW</text>
+  <!-- Chart panel -->
+  <rect x="40" y="108" width="560" height="236" rx="12" fill="#141414"/>
+  <g stroke="#edf1e8" stroke-width="0.6" opacity="0.12">
+    <path d="M60 160 H580 M60 210 H580 M60 260 H580 M60 310 H580"/>
+  </g>
+  <text x="60" y="132" font-family="Space Mono, monospace" font-size="10" fill="#9bc1bc" letter-spacing="2">SENSOR 07 · VIBRATION</text>
+  <!-- Maintenance window -->
+  <rect x="470" y="150" width="90" height="176" fill="#f4f1bb" opacity="0.12"/>
+  <text x="515" y="320" text-anchor="middle" font-family="Space Mono, monospace" font-size="8" fill="#f4f1bb" letter-spacing="1">SERVICE WINDOW</text>
+  <!-- Failure threshold -->
+  <path d="M60 170 H580" stroke="#ed6a5a" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="60" y="162" font-family="Space Mono, monospace" font-size="9" fill="#ed6a5a" letter-spacing="1">FAILURE THRESHOLD</text>
+  <!-- Observed signal -->
+  <polyline fill="none" stroke="#9bc1bc" stroke-width="2.2" stroke-linejoin="round"
+    points="60,282 78,276 96,286 114,272 132,280 150,270 168,284 186,274 204,279 222,266 240,281 258,271 276,276 294,262 312,274 330,264 348,270 366,254 384,262 402,246 420,250"/>
+  <!-- Forecast -->
+  <polyline fill="none" stroke="#f4f1bb" stroke-width="2.2" stroke-dasharray="5 4" stroke-linejoin="round"
+    points="420,250 445,238 470,222 495,204 520,190 545,178 562,170"/>
+  <!-- Now marker -->
+  <path d="M420 146 V326" stroke="#edf1e8" stroke-width="1" opacity="0.5"/>
+  <text x="414" y="322" text-anchor="end" font-family="Space Mono, monospace" font-size="8" fill="#edf1e8" opacity="0.7" letter-spacing="1">NOW</text>
+  <!-- Predicted failure point -->
+  <circle cx="562" cy="170" r="7" fill="none" stroke="#ed6a5a" stroke-width="2"/>
+  <circle cx="562" cy="170" r="2.5" fill="#ed6a5a"/>
+  <!-- Pipeline -->
+  <text x="40" y="374" font-family="Space Mono, monospace" font-size="10" fill="#5d576b" letter-spacing="2">IOT SENSORS → LSTM FORECAST → ALERT → WORK ORDER</text>
+</svg>

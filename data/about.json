@@ -1,19 +1,19 @@
 {
   "heading": "About Me",
-  "bio": "I'm an AI/ML Engineer with 5+ years of experience building practical ML solutions for autonomous vehicles, fraud detection, and industrial IoT. I've deployed computer vision models that run in real time on edge devices with 95% accuracy, cut cloud inference costs by a quarter through quantization, and shaved 40% off training times using distributed computing. I also set up CI/CD pipelines that push model updates weekly without downtime, built anomaly detection that catches 98% of defects across millions of units, and moved legacy workflows to Kubernetes – tripling scalability. I enjoy collaborating with cross-functional teams to turn business problems into Al that actually works, mentoring junior engineers, and creating dashboards that cut debugging time in half.",
+  "bio": "I'm a Machine Learning Engineer with 3+ years of experience building and deploying AI/ML solutions across automotive, enterprise consulting, and manufacturing. At Lucid Motors, I develop computer vision and predictive models for autonomous driving, improving detection accuracy by 25% and enabling sub-100ms inference on production vehicle platforms. Before that, at TCS, I delivered end-to-end ML for enterprise clients, including predictive maintenance, demand forecasting, and NLP automation, and cut model deployment time by 40% with MLOps pipelines. I started at Mahindra & Mahindra, building software and analytics for automotive manufacturing that reduced manual effort by 35%. I work mostly in Python, PyTorch, TensorFlow, scikit-learn, SQL, AWS, Docker, Kubernetes, MLflow, and Airflow, with hands-on experience in CNNs, LSTMs, Transformers, RAG pipelines, and LLM integration.",
   "philosophy": "Python / SQL / Java / C++ / Repeat",
   "highlights": [
     {
       "label": "Years Experience",
-      "value": "5+"
+      "value": "3+"
     },
     {
       "label": "Companies",
       "value": "3"
     },
     {
-      "label": "Technologies",
-      "value": "58+"
+      "label": "AI Features in Production",
+      "value": "10+"
     }
   ]
 }

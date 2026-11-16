@@ -2,71 +2,45 @@
   "heading": "Selected Projects",
   "projects": [
     {
-      "name": "devops_masterpiece-ci-jenkins",
-      "image": "assets/images/projects/devops-ci-jenkins.svg",
-      "description": "Comprehensive project exploring software design patterns",
+      "name": "Autonomous Driving Perception Models",
+      "image": "assets/images/projects/autonomous-perception.svg",
+      "description": "Lucid Motors, 2025. Developed CNN and YOLO-based computer vision models for object detection and lane tracking, improving detection accuracy by 25% on autonomous driving datasets. Deployed real-time inference services on edge and cloud platforms using FastAPI, Docker, and Kubernetes, enabling sub-100ms model responses.",
       "technologies": [
-        "HTML",
-        "SCSS",
-        "Java",
-        "CSS",
-        "JavaScript",
-        "Dockerfile"
+        "PyTorch",
+        "YOLO",
+        "OpenCV",
+        "FastAPI",
+        "Docker",
+        "Kubernetes"
       ],
-      "category": "DevOps",
-      "liveUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins",
-      "githubUrl": "https://github.com/arunvemula7-max/devops_masterpiece-ci-jenkins"
+      "category": "Computer Vision"
     },
     {
-      "name": "microservices-observability",
-      "image": "assets/images/projects/microservices-observability.svg",
-      "description": "Portfolio project showcasing development capabilities",
+      "name": "Predictive Maintenance for Manufacturing",
+      "image": "assets/images/projects/predictive-maintenance.svg",
+      "description": "TCS, 2022. Built LSTM and time-series models on IoT sensor data to predict equipment failures, reducing unplanned downtime by 25% for client manufacturing operations. Implemented MLflow-based monitoring and automated retraining, reducing model deployment time by 40% and improving prediction reliability.",
       "technologies": [
-        "Java",
-        "HTML",
-        "Shell"
-      ],
-      "category": "Backend",
-      "liveUrl": "https://github.com/arunvemula7-max/microservices-observability",
-      "githubUrl": "https://github.com/arunvemula7-max/microservices-observability"
-    },
-    {
-      "name": "creditcardfrauddetection-mlops",
-      "image": "assets/images/projects/credit-card-fraud.svg",
-      "description": "Learning project built with modern web technologies",
-      "technologies": [
-        "Jupyter Notebook",
         "Python",
-        "HTML",
-        "CSS",
-        "Dockerfile"
+        "LSTM",
+        "Time-Series",
+        "MLflow",
+        "Airflow",
+        "Docker"
       ],
-      "category": "AI / ML",
-      "liveUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops",
-      "githubUrl": "https://github.com/arunvemula7-max/creditcardfrauddetection-mlops"
+      "category": "Predictive ML"
     },
     {
-      "name": "computer-vision-projects",
-      "image": "assets/images/projects/computer-vision.svg",
-      "description": "Personal project for exploring modern development practices",
+      "name": "NLP Document Automation",
+      "image": "assets/images/projects/nlp-document-automation.svg",
+      "description": "TCS, 2022. Built NLP-based document classification and information extraction pipelines using spaCy and Hugging Face Transformers, reducing manual processing by 40%. Integrated models with enterprise workflows via REST APIs, enabling automated document routing and improving operational efficiency.",
       "technologies": [
-        "Jupyter Notebook",
-        "Python"
+        "spaCy",
+        "Hugging Face",
+        "Transformers",
+        "Python",
+        "REST APIs"
       ],
-      "category": "AI / ML",
-      "liveUrl": "https://github.com/arunvemula7-max/computer-vision-projects",
-      "githubUrl": "https://github.com/arunvemula7-max/computer-vision-projects"
-    },
-    {
-      "name": "text-analysis-using-nlp-streamlit",
-      "image": "assets/images/projects/nlp-streamlit.svg",
-      "description": "Personal project for exploring modern development practices",
-      "technologies": [
-        "Python"
-      ],
-      "category": "AI / ML",
-      "liveUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit",
-      "githubUrl": "https://github.com/arunvemula7-max/text-analysis-using-nlp-streamlit"
+      "category": "NLP"
     }
   ]
 }
